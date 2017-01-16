@@ -1,0 +1,31 @@
+<?php
+return [
+    'models'     => [
+        'menu'       => 'App\Models\Menu',
+        'user'       => 'App\Models\User',
+        'role'       => 'App\Models\Role',
+        'action'       => 'App\Models\Action',
+        'permission'       => 'App\Models\Permission',
+        'activity'       => 'App\Models\Activity',
+        'activityComment'       => 'App\Models\ActivityComment',
+        'activityJoin'       => 'App\Models\ActivityJoin',
+        'activityLeave'       => 'App\Models\ActivityLeave',
+        'activityPriceRule'       => 'App\Models\ActivityPriceRule',
+        'activitySign'       => 'App\Models\ActivitySign',
+        'apply'       => 'App\Models\Apply',
+        'customer'       => 'App\Models\Customer',
+        'dictionary'       => 'App\Models\Dictionary',
+        'event'       => 'App\Models\Event',
+        'eventComment'       => 'App\Models\EventComment',
+        'eventJoin'       => 'App\Models\EventJoin',
+        'eventSign'       => 'App\Models\EventSign',
+        'movie'       => 'App\Models\Movie',
+        'movieLike'       => 'App\Models\MovieLike',
+        'pay'       => 'App\Models\Pay',
+        'scoreRecord'       => 'App\Models\ScoreRecord',
+        'scoreRule'       => 'App\Models\ScoreRule',
+        'suggestions'       => 'App\Models\Suggestions',
+    ],
+
+    'page-limit' => '10',
+];
